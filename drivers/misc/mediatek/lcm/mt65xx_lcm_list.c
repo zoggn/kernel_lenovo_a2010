@@ -108,6 +108,10 @@ LCM_DRIVER *lcm_driver_list[] = {
 	&ili9806e_boe_hd720_dsi,
 #endif
 
+#if defined(ILI9806E_YAXIN_HD720_DSI)
+	&ili9806e_yaxin_hd720_dsi,
+#endif    
+    
 #if defined(LP079X01)
 	&lp079x01_lcm_drv,
 #endif
